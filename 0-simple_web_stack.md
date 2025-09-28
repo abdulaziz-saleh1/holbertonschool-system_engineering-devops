@@ -53,11 +53,11 @@ flowchart TD
     subgraph C [Single Server]
         D[Nginx - Web Server]
         E[Application Server]
-        F[Application Files (Code Base)]
+        F[Application Files]
         G[MySQL Database]
     end
 
     D --> E
     E --> F
     E --> G
-```
+
